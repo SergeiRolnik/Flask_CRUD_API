@@ -1,0 +1,30 @@
+###
+GET http://localhost:5000/ad/5
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/ad
+Content-Type: application/json
+
+{
+  "title": "title 999",
+  "description": "description 999",
+  "user_id": 5
+}
+
+
+###
+PATCH http://localhost:5000/ad/10
+Content-Type: application/json
+
+{
+  "title": "title 000",
+  "description": "description 000",
+  "user_id": 2
+}
+
+
+###
+DELETE http://localhost:5000/ad/6
+Content-Type: application/json
